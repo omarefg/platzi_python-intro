@@ -30,7 +30,7 @@ def first_not_repeating_char_without_tuples(char_sequence):
 
 
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     char_sequence = str(input('Escribe una secuencia de caracteres: '))
 
     result = first_not_repeating_char_without_tuples(char_sequence)

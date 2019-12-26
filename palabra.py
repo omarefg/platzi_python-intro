@@ -34,7 +34,7 @@ def palindrome(word):
 
 
 if __name__ == '__main__':
-    word = str(raw_input("Escribe una palabra: "))
+    word = str(input("Escribe una palabra: "))
 
     result = palindrome(word)
 

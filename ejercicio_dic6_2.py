@@ -16,7 +16,7 @@ def is_prime(number):
 
 
 def run():
-    number = int(raw_input("Escribe un número: "))
+    number = int(input("Escribe un número: "))
     result = is_prime(number)
 
     if result is True:

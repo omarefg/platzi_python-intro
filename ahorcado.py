@@ -101,7 +101,7 @@ def run():
 
     while True:
         display_board(hidden_word, tries)
-        current_letter = str(raw_input('Escoge una letra: '))
+        current_letter = str(input('Escoge una letra: '))
 
         letter_indexes = []
         for i in range(len(word)):

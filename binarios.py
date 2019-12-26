@@ -20,8 +20,7 @@ def normal_search(numbers, number_to_find):
     for number in numbers:
         if number == number_to_find:
             return True
-            break
-        
+
     return False
 
 
